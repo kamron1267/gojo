@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(12, 12, 43);
+}
+.abdullo {
+    display: flex;
+    gap: 20px;
+  }
+  .header select{
+    width: 83px;
+    height: 32px;
+    background-color: #0f0f1a;
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 850px;
+  }
+
+
+  .btnn{
+    color: white;
+    background: #c1b3ff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .btn {
+    color: white;
+    background: #060608;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+  }
+
+  .sec {
+    display: flex;
+    height: 500px;
+    gap: 50px;
+    position: relative;
+    background-color: rgb(10, 10, 37);
+  }
+
+  .card {
+    background-color: #1e1e2f;
+    border-radius: 20px;
+    width: 300px;
+    height: 220px;
+    left: 90px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    
+  }
+  .card h3{
+    position: relative;
+    bottom: 160px;
+    color: #fff;
+  }
+  .card p{
+    position: relative;
+    bottom: 140px;
+    color: #fff;
+  }
+
+  .card img {
+    position: relative;
+    bottom: 200px;
+    width: 150px;
+    height: 200px;
+}
+  .h1{
+    color: #fff ;
+  }
+
+  .footer {
+    display: flex;
+    color: #fff;
+    padding: 20px 40px;
+    background-color: #0f0f1a;
+  }
+.ul{
+    color: #fff;
+    display: flex;      
+}
+.ul ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 900px;
+}
